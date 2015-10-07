@@ -1,0 +1,667 @@
+var PLACEMARK_INDEX = {
+  "Arts and Sciences Finance and Payroll Administration" : {
+    "lat" : "40.01094738087833",
+    "lng" : "-105.27671992778778",
+    "id" : "FPA"
+  },
+  "Center for Asian Studies" : {
+    "lat" : "40.01113021883857",
+    "lng" : "-105.2769210934639",
+    "id" : "CAS"
+  },
+  "Page Foundation Center" : {
+    "lat" : "40.01080357539697",
+    "lng" : "-105.2757328748703",
+    "id" : "PFDC"
+  },
+  "Academic Advising Center: SIT (Students in Transition)" : {
+    "lat" : "40.01133770851479",
+    "lng" : "-105.27527153491974",
+    "id" : "AAC"
+  },
+  "Continuing Education Building" : {
+    "lat" : "40.010809738495254",
+    "lng" : "-105.27442127466202",
+    "id" : "CEDU"
+  },
+  "Armory" : {
+    "lat" : "40.01090629362886",
+    "lng" : "-105.2738955616951",
+    "id" : "ARMR"
+  },
+  "Arts and Sciences Office Building" : {
+    "lat" : "40.01082001032445",
+    "lng" : "-105.27352809906006",
+    "id" : "OB1"
+  },
+  "Institute for Behavioral Science" : {
+    "lat" : "40.0114079582027",
+    "lng" : "-105.27448832988739",
+    "id" : "IBS"
+  },
+  "Athens North Hall" : {
+    "lat" : "40.01289488813274",
+    "lng" : "-105.27082979679108",
+    "id" : "ATHN"
+  },
+  "Faculty Staff Court" : {
+    "lat" : "40.01215533496022",
+    "lng" : "-105.27123749256134",
+    "id" : "FACT"
+  },
+  "Athens Court" : {
+    "lat" : "40.01209370516746",
+    "lng" : "-105.26902735233307",
+    "id" : "ATCT"
+  },
+  "Marine Court" : {
+    "lat" : "40.01322768444597",
+    "lng" : "-105.2683299779892",
+    "id" : "MRCT"
+  },
+  "Athletics Practice Field" : {
+    "lat" : "40.01240596221081",
+    "lng" : "-105.26622176170349",
+    "id" : ""
+  },
+  "Newton Court" : {
+    "lat" : "40.01342489631029",
+    "lng" : "-105.2649074792862",
+    "id" : "NTCT"
+  },
+  "Children\u2019s Center: Main Offices" : {
+    "lat" : "40.01416854425618",
+    "lng" : "-105.26606619358063",
+    "id" : "DACR"
+  },
+  "Koenig Alumni Center" : {
+    "lat" : "40.0099407361463",
+    "lng" : "-105.27594745159149",
+    "id" : "ALUM"
+  },
+  "McKenna Languages" : {
+    "lat" : "40.009755840602104",
+    "lng" : "-105.27361392974854",
+    "id" : "MKNA"
+  },
+  "Macky Auditorium" : {
+    "lat" : "40.00999004154015",
+    "lng" : "-105.27272880077362",
+    "id" : "MCKY"
+  },
+  "Hale Science" : {
+    "lat" : "40.009168280326044",
+    "lng" : "-105.27495503425598",
+    "id" : "HALE"
+  },
+  "Old Main" : {
+    "lat" : "40.00919293330641",
+    "lng" : "-105.2734100818634",
+    "id" : "MAIN"
+  },
+  "Woodbury Arts and Sciences" : {
+    "lat" : "40.0092627833691",
+    "lng" : "-105.27233719825745",
+    "id" : "WDBY"
+  },
+  "Eaton Humanities Building" : {
+    "lat" : "40.009275109843315",
+    "lng" : "-105.2718597650528",
+    "id" : "HUMN"
+  },
+  "Norlin Library" : {
+    "lat" : "40.00886833501841",
+    "lng" : "-105.27080297470093",
+    "id" : "LIBR"
+  },
+  "Ramaley Biology" : {
+    "lat" : "40.00875328715344",
+    "lng" : "-105.26968717575073",
+    "id" : "RAMY"
+  },
+  "Muenzingger Psychology" : {
+    "lat" : "40.00873685172834",
+    "lng" : "-105.26915609836578",
+    "id" : "MUEN"
+  },
+  "Porter Biosciences" : {
+    "lat" : "40.00896283847673",
+    "lng" : "-105.26882350444794",
+    "id" : "PORT"
+  },
+  "Gold Biosciences Building (MCD Biology)" : {
+    "lat" : "40.00869576314825",
+    "lng" : "-105.26814758777618",
+    "id" : "GOLD"
+  },
+  "Folsom Field" : {
+    "lat" : "40.00948876837633",
+    "lng" : "-105.26697278022766",
+    "id" : ""
+  },
+  "Stadium Building" : {
+    "lat" : "40.00922580393305",
+    "lng" : "-105.26577115058899",
+    "id" : "STAD"
+  },
+  "Dal Ward Athletic Center" : {
+    "lat" : "40.010359830858896",
+    "lng" : "-105.26695132255554",
+    "id" : "DALW"
+  },
+  "Grounds and Service Center" : {
+    "lat" : "40.01026943809932",
+    "lng" : "-105.26571750640869",
+    "id" : "GRNS"
+  },
+  "Health Physics Laboratory" : {
+    "lat" : "40.01017493644993",
+    "lng" : "-105.26527762413025",
+    "id" : "HPHY"
+  },
+  "Balch Fieldhouse" : {
+    "lat" : "40.00940659209664",
+    "lng" : "-105.26804566383362",
+    "id" : "FH"
+  },
+  "Student Recreation Center" : {
+    "lat" : "40.01029409068199",
+    "lng" : "-105.26893615722656",
+    "id" : "REC"
+  },
+  "Clare Small Arts and Sciences" : {
+    "lat" : "40.01054883351485",
+    "lng" : "-105.26990175247192",
+    "id" : "CLRE"
+  },
+  "Temporary Building No. 1" : {
+    "lat" : "40.01044200599099",
+    "lng" : "-105.27032017707825",
+    "id" : "TBO1"
+  },
+  "Sewall Hall" : {
+    "lat" : "40.010359830858896",
+    "lng" : "-105.27114629745483",
+    "id" : "SWLL"
+  },
+  "Stadium Ticket Building" : {
+    "lat" : "40.00851908197203",
+    "lng" : "-105.26552975177765",
+    "id" : "STTB"
+  },
+  "Franklin Field" : {
+    "lat" : "40.00916006266394",
+    "lng" : "-105.26480287313461",
+    "id" : ""
+  },
+  "Gates Woodruff Women\u2019s Studies Cottage" : {
+    "lat" : "40.008210916035395",
+    "lng" : "-105.27483701705933",
+    "id" : "COTT"
+  },
+  "Economics Building" : {
+    "lat" : "40.007859605170665",
+    "lng" : "-105.27452319860458",
+    "id" : "ECON"
+  },
+  "Guggenheim Geography" : {
+    "lat" : "40.00820269825805",
+    "lng" : "-105.27418524026871",
+    "id" : "GUGG"
+  },
+  "University Theatre Building (includes Charlotte York Irey Theatre)" : {
+    "lat" : "40.00819037159018",
+    "lng" : "-105.27358710765839",
+    "id" : "THTR"
+  },
+  "Bruce Curtis Building (Museum Collections)" : {
+    "lat" : "40.007450767443565",
+    "lng" : "-105.27415573596954",
+    "id" : "MCOL"
+  },
+  "Education Building" : {
+    "lat" : "40.00738502446497",
+    "lng" : "-105.27356564998627",
+    "id" : "EDUC"
+  },
+  "Hellems Arts and Sciences (includes Mary Rippon Outdoor Theatre)" : {
+    "lat" : "40.00758636213699",
+    "lng" : "-105.27275562286377",
+    "id" : "HLMS"
+  },
+  "Denison Arts and Sciences" : {
+    "lat" : "40.006947421150265",
+    "lng" : "-105.2733913064003",
+    "id" : "DEN"
+  },
+  "Henderson Building (Museum of Natural History)" : {
+    "lat" : "40.006947421150265",
+    "lng" : "-105.27275562286377",
+    "id" : "HEND"
+  },
+  "University Memorial Center" : {
+    "lat" : "40.00660637624641",
+    "lng" : "-105.27158886194229",
+    "id" : "UMC"
+  },
+  "Cristol Chemistry and Biochemistry" : {
+    "lat" : "40.00763156030829",
+    "lng" : "-105.2716451883316",
+    "id" : "CHEM"
+  },
+  "Ekeley Sciences Building" : {
+    "lat" : "40.00810408485263",
+    "lng" : "-105.27179002761841",
+    "id" : "EKLC"
+  },
+  "Ketchum Arts and Sciences" : {
+    "lat" : "40.00806299589167",
+    "lng" : "-105.27033627033234",
+    "id" : "KTCH"
+  },
+  "Visual Arts Complex" : {
+    "lat" : "40.00724121147853",
+    "lng" : "-105.26995539665222",
+    "id" : "VAC"
+  },
+  "Technology Learning Center" : {
+    "lat" : "40.00693303977308",
+    "lng" : "-105.26984810829163",
+    "id" : "TLC"
+  },
+  "Euclid Avenue AutoPark" : {
+    "lat" : "40.00642352616861",
+    "lng" : "-105.27041673660278",
+    "id" : "EPRK"
+  },
+  "University Club" : {
+    "lat" : "40.005400378493825",
+    "lng" : "-105.27077078819275",
+    "id" : "CLUB"
+  },
+  "Wardenburg Health Center" : {
+    "lat" : "40.00531408822973",
+    "lng" : "-105.26902735233307",
+    "id" : "WARD"
+  },
+  "Imig Music Building" : {
+    "lat" : "40.00592222681422",
+    "lng" : "-105.26904881000519",
+    "id" : "MUS"
+  },
+  "Environmental Design" : {
+    "lat" : "40.006863187326445",
+    "lng" : "-105.26925265789032",
+    "id" : "ENVD"
+  },
+  "Power House" : {
+    "lat" : "40.007520619288975",
+    "lng" : "-105.2692848443985",
+    "id" : "POWR"
+  },
+  "JILA" : {
+    "lat" : "40.00747542104424",
+    "lng" : "-105.26848018169403",
+    "id" : "JILA"
+  },
+  "Duane D-Wing" : {
+    "lat" : "40.00775071898005",
+    "lng" : "-105.26881814002991",
+    "id" : "DDW"
+  },
+  "Duane Physics and Astrophysics" : {
+    "lat" : "40.00793151105037",
+    "lng" : "-105.26818513870239",
+    "id" : "DUAN"
+  },
+  "Baker Hall" : {
+    "lat" : "40.00682209761856",
+    "lng" : "-105.26785790920258",
+    "id" : "BKER"
+  },
+  "Libby Hall" : {
+    "lat" : "40.006863187326445",
+    "lng" : "-105.2664041519165",
+    "id" : "LIBY"
+  },
+  "Farrand Field" : {
+    "lat" : "40.006074260613886",
+    "lng" : "-105.26742339134216",
+    "id" : ""
+  },
+  "CIRES (Cooperative Institute for Research in Environmental Sciences)" : {
+    "lat" : "40.00793151105037",
+    "lng" : "-105.2714091539383",
+    "id" : "CIRE"
+  },
+  "Benson Earth Sciences" : {
+    "lat" : "40.00801368910586",
+    "lng" : "-105.26588916778564",
+    "id" : "BESC"
+  },
+  "Mathematics Building" : {
+    "lat" : "40.00756170857642",
+    "lng" : "-105.26453733444214",
+    "id" : "MATH"
+  },
+  "Brackett Hall (Engineering Quad)" : {
+    "lat" : "40.007122051917385",
+    "lng" : "-105.26492893695831",
+    "id" : "BRKT"
+  },
+  "Aden Hall (Engineering Quad)" : {
+    "lat" : "40.00674813608204",
+    "lng" : "-105.26539027690887",
+    "id" : "ADEN"
+  },
+  "Cockerell Hall (Engineering Quad)" : {
+    "lat" : "40.00691249494324",
+    "lng" : "-105.2644944190979",
+    "id" : "CKRL"
+  },
+  "Crosman Hall (Engineering Quad)" : {
+    "lat" : "40.006329019194865",
+    "lng" : "-105.2647465467453",
+    "id" : "CROS"
+  },
+  "Reed Hall" : {
+    "lat" : "40.00569212095987",
+    "lng" : "-105.26475191116333",
+    "id" : "REED"
+  },
+  "Farrand Hall" : {
+    "lat" : "40.00600029826717",
+    "lng" : "-105.26579260826111",
+    "id" : "FRND"
+  },
+  "Hallett Hall" : {
+    "lat" : "40.0049976896616",
+    "lng" : "-105.26496112346649",
+    "id" : "HLET"
+  },
+  "Willard Hall" : {
+    "lat" : "40.00528532478413",
+    "lng" : "-105.26624858379364",
+    "id" : "WLRD"
+  },
+  "Cheyenne Arapaho Hall" : {
+    "lat" : "40.005194925304764",
+    "lng" : "-105.2678257226944",
+    "id" : "CHEY"
+  },
+  "Center for Community" : {
+    "lat" : "40.00450870717208",
+    "lng" : "-105.26496112346649",
+    "id" : "C4C"
+  },
+  "Regent Administrative Center" : {
+    "lat" : "40.004405979313134",
+    "lng" : "-105.26700496673584",
+    "id" : "RGNT"
+  },
+  "University Administrative Center and Annex" : {
+    "lat" : "40.00415121355596",
+    "lng" : "-105.26820659637451",
+    "id" : "UCTR"
+  },
+  "Discovery Learning Center" : {
+    "lat" : "40.007652104921696",
+    "lng" : "-105.26170492172241",
+    "id" : "DLC"
+  },
+  "Integrated Teaching and Learning Laboratory" : {
+    "lat" : "40.0069166039097",
+    "lng" : "-105.26170492172241",
+    "id" : "ITLL"
+  },
+  "Engineering Center" : {
+    "lat" : "40.00721244884489",
+    "lng" : "-105.26275634765625",
+    "id" : "EC"
+  },
+  "Police and Parking Services" : {
+    "lat" : "40.00679744378196",
+    "lng" : "-105.26105582714081",
+    "id" : "PDPS"
+  },
+  "Regent Drive AutoPark" : {
+    "lat" : "40.00694536666799",
+    "lng" : "-105.26042819023132",
+    "id" : "RPRK"
+  },
+  "Environmental Health and Safety Center" : {
+    "lat" : "40.00609398181639",
+    "lng" : "-105.2599185705185",
+    "id" : "EHSC"
+  },
+  "Coors Events/Conference Center/ Basketball-Volleyball Practice" : {
+    "lat" : "40.00454823141606",
+    "lng" : "-105.26039063930511",
+    "id" : "EVNT"
+  },
+  "Sommers-Bausch Observatory" : {
+    "lat" : "40.00353895002601",
+    "lng" : "-105.26296555995941",
+    "id" : "OBSV"
+  },
+  "Fiske Planetarium and Science Center" : {
+    "lat" : "40.003510185832496",
+    "lng" : "-105.26345372200012",
+    "id" : "FISK"
+  },
+  "Kittredge West Hall" : {
+    "lat" : "40.00279107705675",
+    "lng" : "-105.26407599449158",
+    "id" : "KITW"
+  },
+  "Fleming Building" : {
+    "lat" : "40.00188293458077",
+    "lng" : "-105.26341080665588",
+    "id" : "FLMG"
+  },
+  "Smith Hall" : {
+    "lat" : "40.00203086811534",
+    "lng" : "-105.26174247264862",
+    "id" : "SMTH"
+  },
+  "Buckingham Hall" : {
+    "lat" : "40.00246233909379",
+    "lng" : "-105.26071786880493",
+    "id" : "BUCK"
+  },
+  "Arnett Hall" : {
+    "lat" : "40.003411565648555",
+    "lng" : "-105.2608573436737",
+    "id" : "ARNT"
+  },
+  "Andrews Hall" : {
+    "lat" : "40.003136250214354",
+    "lng" : "-105.26246130466461",
+    "id" : "ANDS"
+  },
+  "Kittredge Central Hall" : {
+    "lat" : "40.002532196043354",
+    "lng" : "-105.2633410692215",
+    "id" : "KCEN"
+  },
+  "William A. Wise Law Library" : {
+    "lat" : "40.00129941584661",
+    "lng" : "-105.26237547397614",
+    "id" : "WFLW"
+  },
+  "Housing System Maintenance Center" : {
+    "lat" : "40.013137295484384",
+    "lng" : "-105.24853527545929",
+    "id" : "HSMC"
+  },
+  "Computing Center" : {
+    "lat" : "40.01406624385089",
+    "lng" : "-105.24724781513214",
+    "id" : "COMP"
+  },
+  "Transportation Center" : {
+    "lat" : "40.01377001570166",
+    "lng" : "-105.25046110153198",
+    "id" : "TRAN"
+  },
+  "Science Learning Laboratory" : {
+    "lat" : "40.01283736761785",
+    "lng" : "-105.24984955787659",
+    "id" : "SLL"
+  },
+  "Administrative and Research Center" : {
+    "lat" : "40.01301814621575",
+    "lng" : "-105.25193095207214",
+    "id" : "ARCE"
+  },
+  "Rose Litman Research Laboratory, RL1" : {
+    "lat" : "40.01322768444597",
+    "lng" : "-105.25333642959595",
+    "id" : "LITR"
+  },
+  "Institute for Behavioral Genetics" : {
+    "lat" : "40.01185129410935",
+    "lng" : "-105.25313794612885",
+    "id" : "IBG"
+  },
+  "Research Park Greenhouse" : {
+    "lat" : "40.01063511716204",
+    "lng" : "-105.25245666503906",
+    "id" : "GH-3"
+  },
+  "Smiley Court" : {
+    "lat" : "40.008950511946104",
+    "lng" : "-105.25227427482605",
+    "id" : "SMCT"
+  },
+  "Prentup Field" : {
+    "lat" : "40.0103433958206",
+    "lng" : "-105.25074541568756",
+    "id" : ""
+  },
+  "Potts Field" : {
+    "lat" : "40.01062689967652",
+    "lng" : "-105.24854063987732",
+    "id" : ""
+  },
+  "Ski Building" : {
+    "lat" : "40.00986677798872",
+    "lng" : "-105.24946868419647",
+    "id" : ""
+  },
+  "Space Science" : {
+    "lat" : "40.01182253341819",
+    "lng" : "-105.24578332901001",
+    "id" : "SPSC"
+  },
+  "MacAllister Research Center" : {
+    "lat" : "40.00975994939742",
+    "lng" : "-105.24215698242188",
+    "id" : "MAC"
+  },
+  "LASP Space Technology Research Center" : {
+    "lat" : "40.00907788598851",
+    "lng" : "-105.24778962135315",
+    "id" : "LSTR"
+  },
+  "Center for Astrophusics and Space Astronomy" : {
+    "lat" : "40.00816571824772",
+    "lng" : "-105.24638414382935",
+    "id" : "CASA"
+  },
+  "Stearns Towers" : {
+    "lat" : "39.99904337045013",
+    "lng" : "-105.25201678276062",
+    "id" : "STRN"
+  },
+  "Williams Village North Hall" : {
+    "lat" : "39.99890775878909",
+    "lng" : "-105.25034844875336",
+    "id" : "WVN"
+  },
+  "Bear Creek Commons" : {
+    "lat" : "39.998126959137714",
+    "lng" : "-105.25137305259705",
+    "id" : "BCC"
+  },
+  "Darley Towers" : {
+    "lat" : "39.99825846286209",
+    "lng" : "-105.25228500366211",
+    "id" : "DLYT"
+  },
+  "Darley Commons" : {
+    "lat" : "39.99774888451949",
+    "lng" : "-105.2517968416214",
+    "id" : "DLYC"
+  },
+  "Bear Creek Apartments" : {
+    "lat" : "39.99695985248668",
+    "lng" : "-105.24954915046692",
+    "id" : "BCAP"
+  },
+  "International English Center" : {
+    "lat" : "40.00609480569598",
+    "lng" : "-105.27588307857513",
+    "id" : "IEC"
+  },
+  "Lesser House" : {
+    "lat" : "40.00837116249607",
+    "lng" : "-105.26169955730438",
+    "id" : "LESS"
+  },
+  "Business Field" : {
+    "lat" : "40.00585648236356",
+    "lng" : "-105.26206970214844",
+    "id" : ""
+  },
+  "Kittredge Fields" : {
+    "lat" : "40.00271769225802",
+    "lng" : "-105.25978982448578",
+    "id" : ""
+  },
+  "Center for Innovation and Creativity": {
+    "lat": "40.01773054663655",
+    "lng": "-105.24702787399292",
+    "id": "CINC"
+  },
+  "Caruthers Biotechnology Building": {
+    "lat": "40.00838759800923",
+    "lng": "-105.2491307258606",
+    "id": "BIOT"
+  },
+  "Carlson Gymnasium": {
+    "lat": "40.00926689219409",
+    "lng": "-105.26881277561188",
+    "id": "CARL"
+  },
+  "ATLAS Center, Roser": {
+    "lat": "40.007639778154385",
+    "lng": "-105.27000904083252",
+    "id": "ATLS"
+  },
+  "Koelbel Building": {
+    "lat": "40.0057660836405",
+    "lng": "-105.26345372200012",
+    "id": "KOBL"
+  },
+  "Speech, Language, and Hearing Sciences": {
+    "lat": "40.00390877429134",
+    "lng": "-105.26249349117279",
+    "id": "SLHS"
+  },
+  "Marine Street Science Center, Research Laboratory, RL6": {
+    "lat": "40.01408637361065",
+    "lng": "-105.25094926357269 ",
+    "id": "MSSC"
+  },
+  "Research Laboratory, RL2": {
+    "lat": "40.01264015405582",
+    "lng": "-105.25335252285004",
+    "id": "RL2"
+  },
+  "Life Science Research Laboratory, RL4": {
+    "lat": "40.0121142484379",
+    "lng": "-105.25293409824371",
+    "id": "LSRL"
+  }  
+}
