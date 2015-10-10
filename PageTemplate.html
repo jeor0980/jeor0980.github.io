@@ -44,58 +44,8 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-
-  <style>
-  html { height: 100% }
-  body { height: 100% }
-  #map { height: 100%; width: 100% }
-  </style>
-
   </head>
   <body>
-    <div id="map"></div>
-    <script>
-      //Function to draw the map
-      function initMap() {
-        var uluru = {lat: 40.006883, lng: -105.266363};
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 17, //This is fine
-          center: uluru //The pin in which you center the map about
-        });
-
-
-        //VARIABLES FOR EACH PIN
-        var contentString = '<div id="content">'+
-            '<div id="siteNotice">'+
-            '</div>'+
-            '<h1 id="firstHeading" class="firstHeading">Libby Hall </h1>'+
-            '<div id="bodyContent">'+
-
-            '<p><b>Hours: </b> 7:00 AM - 2:00PM <br>' +
-
-            '<b>Payment types accepted</b> Campus Cash, Munch Money, Meal Plan '+
-
-
-            '</div>'+
-            '</div>';
-
-        var infowindow = new google.maps.InfoWindow({
-          content: contentString
-        });
-
-        var marker = new google.maps.Marker({
-          position: uluru,
-          map: map,
-          title: 'Uluru (Ayers Rock)'
-        });
-        marker.addListener('click', function() {
-          infowindow.open(map, marker);
-        });
-      }
-
-      </script>
-      <script async defer
-          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZzhW7OlAOiBrSkPd1yWF24dDjbPk4QeA&signed_in=true&callback=initMap"></script>
 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
