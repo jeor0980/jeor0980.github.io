@@ -92,10 +92,13 @@
           infowindow.open(map, marker);
         });
       }
-
+      
+      google.maps.event.addDomListener(window, 'load', init_map);
       </script>
       <script async defer
-          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZzhW7OlAOiBrSkPd1yWF24dDjbPk4QeA&signed_in=false&callback=initMap"></script>
+          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZzhW7OlAOiBrSkPd1yWF24dDjbPk4QeA&signed_in=true&callback=initMap"></script>
+
+
 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
