@@ -54,6 +54,14 @@
   </head>
   <body>
     <div id="map"></div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Google Analytics -->
+    <script src="/js/googleanalytics.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="/js/bootstrap.min.js"></script>
+
     <script>
       //Function to draw the map
       function initMap() {
@@ -92,7 +100,7 @@
           infowindow.open(map, marker);
         });
       }
-      
+
       google.maps.event.addDomListener(window, 'load', init_map);
       </script>
       <script async defer
@@ -101,12 +109,7 @@
 
 
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <!-- Google Analytics -->
-    <script src="/js/googleanalytics.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="/js/bootstrap.min.js"></script>
+
 
 
   </body>
